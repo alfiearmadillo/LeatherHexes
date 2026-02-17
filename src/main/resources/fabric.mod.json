@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "name": "Leather Hexes",
   "description": "Show hexes of leather armor in their tooltips.",
+  "icon": "assets/leather-hex-tooltip/icon.png",
   "authors": ["You"],
   "license": "MIT",
   "environment": "client",
