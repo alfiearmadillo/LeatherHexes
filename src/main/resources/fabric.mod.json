@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "leather-hex-tooltip",
+  "version": "1.0.0",
+  "name": "Leather Hexes",
+  "description": "Show hexes of leather armor in their tooltips.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.leatherhex.LeatherHexTooltipMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "*",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
