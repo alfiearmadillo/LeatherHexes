@@ -24,10 +24,10 @@ public class LeatherHexTooltipMod implements ClientModInitializer {
 
             for (var entry : stack.getComponents()) {
                 if (entry.type() == DataComponentTypes.DYED_COLOR
-                        && entry.value() instanceof DyedColorComponent dyed
-                        && dyed.showInTooltip()) {
+                        && entry.value() instanceof DyedColorComponent dyed) {
 
-                        int rgb = dyed.rgb() & 0xFFFFFF;
+                    int rgb = dyed.rgb() & 0xFFFFFF;
+                    if (rgb == 0xA06540) return;
                     String hex = String.format("#%06X", rgb);
 
                     // All other mods have already added their lines — safe to check now
