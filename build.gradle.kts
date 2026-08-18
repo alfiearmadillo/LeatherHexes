@@ -1,5 +1,5 @@
 plugins {
-    id("net.fabricmc.fabric-loom") version "1.17"
+    id("net.fabricmc.fabric-loom") version "1.17.19"
 }
 
 group = "com.leatherhex"
@@ -12,7 +12,7 @@ repositories {
 
 dependencies {
     minecraft("com.mojang:minecraft:26.2")
-    implementation("net.fabricmc:fabric-loader:0.18.4")
+    implementation("net.fabricmc:fabric-loader:0.19.3")
     implementation("net.fabricmc.fabric-api:fabric-api:0.158.0+26.2")
 }
 
