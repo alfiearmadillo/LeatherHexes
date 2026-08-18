@@ -1,5 +1,5 @@
 plugins {
-    id("net.fabricmc.fabric-loom") version "1.15-SNAPSHOT"
+    id("net.fabricmc.fabric-loom") version "1.17"
 }
 
 group = "com.leatherhex"
@@ -13,8 +13,7 @@ repositories {
 dependencies {
     minecraft("com.mojang:minecraft:26.2")
     implementation("net.fabricmc:fabric-loader:0.18.4")
-    // No +26.2 Fabric API artifact is published yet; move to +26.2 once available.
-    implementation("net.fabricmc.fabric-api:fabric-api:0.144.3+26.1")
+    implementation("net.fabricmc.fabric-api:fabric-api:0.158.0+26.2")
 }
 
 java {
