@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "leather-hex-tooltip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Leather Hexes",
   "description": "Show hexes of leather armor in their tooltips.",
   "icon": "assets/leather-hex-tooltip/icon.png",
@@ -15,7 +15,7 @@
   },
   "depends": {
     "fabricloader": ">=0.18.4",
-    "minecraft": ">=26.1",
+    "minecraft": ">=26.2",
     "java": ">=25",
     "fabric-api": "*"
   }
